@@ -1,3 +1,7 @@
+#Micah Kennedy
+#9/10/2024
+#Pd 1-2
+
 fname = input("What is your first name?")
 lname = input("What is your last name?")
 full_name = fname + " " + lname + "!!!"
