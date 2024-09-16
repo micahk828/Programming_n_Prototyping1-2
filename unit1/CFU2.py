@@ -1,5 +1,6 @@
 #9/16/2024
 #Micah Kennedy
+#Pd 1-2
 
 start = input("Click enter to create your profile")
 fname = input("What is your first name")
