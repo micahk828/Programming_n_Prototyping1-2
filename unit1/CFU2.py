@@ -3,8 +3,8 @@
 #Pd 1-2
 
 start = input("Click enter to create your profile")
-fname = input("What is your first name")
-lname = input("What is your last name")
+fname = input("What is your first name?")
+lname = input("What is your last name?")
 age = input("How old are you?")
 sleep = input("How many hours do you sleep?")
 
