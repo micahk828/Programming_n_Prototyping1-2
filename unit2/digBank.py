@@ -25,4 +25,4 @@ quarters = int(input("How many quarters do you have?"))
 loonies = int(input("How many loonies do you have?"))
 toonies = int(input("How many toonies do you have?"))
 total = (pennies + (nickles*5) + (dimes*10) + (quarters*25) + (loonies * 100) + (toonies*200))/100
-print("Total: $" + str(total) + "\nThe Breakdown\n $" + str(2*toonies + loonies) + " and " + str(quarters) + " quarters and " + str(dimes) + " dimes and " + str(nickles) + " nickles and " + str(pennies) + " pennies")
+print("Total: $" + str(total) + "\nThe Breakdown\n$" + str(2*toonies + loonies) + " and " + str(quarters) + " quarters and " + str(dimes) + " dimes and " + str(nickles) + " nickles and " + str(pennies) + "¢\nGood Money Managing, kid!!")
