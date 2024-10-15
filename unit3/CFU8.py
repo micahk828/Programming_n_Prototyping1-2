@@ -4,13 +4,13 @@
 
 #version 1
 deli = input("Did you order delivery? ")
-if deli == "yes" or "Yes":
+if deli == "yes":
     print("Great!")
 else:
     print("No?! So who is cooking?")
 #version 2    
 deli = input("Did you order delivery? ")
-if deli == "yes" or "Yes":
+if deli == "yes":
     print("Great!")
     cost = float(input("What is the cost of the food ordered? "))
     people = int(input("How many people are splitting the bill? "))
