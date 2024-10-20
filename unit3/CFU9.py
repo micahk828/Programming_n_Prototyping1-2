@@ -4,20 +4,25 @@
 
 import random
 user_plays = int(input("How many rolls do you want to play? "))
-dice = 0
-points = 0
+total = 0
 def guess():
     dice = random.randint(1,6)
+    points = 0
     ans = int(input("Pick a number from 1-6: "))
-    global key 
-    global points
     if ans == dice:
         points = points + 6
     else:
         points = points - 1
     key = "The answer was " + str(dice) + " you put " + str(ans)
     print(key)
-for _ in range(user_plays):
+    return points
+total += guess()
+if user_plays > 0:
     guess()
+    user_plays = user_plays -1
+    total += guess()
+    print("Thanks for playing!!\nYour score is " + str(total))
 
-print("Your score is " + str(points))
+
+
+
