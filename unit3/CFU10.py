@@ -1,3 +1,7 @@
+#Micah Kennedy
+#10/21/2024
+#Pd1-2
+
 import random
 
 print("Welcome to the Number Guessing Game!")
