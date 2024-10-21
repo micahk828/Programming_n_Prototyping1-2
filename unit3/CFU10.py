@@ -1,8 +1,7 @@
-#Micah Kennedy
-#10/21/2024
-#Pd1-2
-
 import random
+
+print("Welcome to the Number Guessing Game!")
+ranNum = random.randint(1, 10)
 
 def guess_number(ranNum, attempts=0):
     guess = int(input("Guess a number between 1 and 10: "))
@@ -16,6 +15,6 @@ def guess_number(ranNum, attempts=0):
         else:
             print("Too Low")
         guess_number(ranNum, attempts)
-print("Welcome to the Number Guessing Game!")
-ranNum = random.randint(1, 10)
+
+
 guess_number(ranNum)
