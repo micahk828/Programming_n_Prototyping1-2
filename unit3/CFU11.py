@@ -3,7 +3,7 @@
 #Pd 1-2
 
 print("Check out these functions!\n")
-pick = int(input("Enter 1 for Count by 10, 2 for Decimals, 3 for Bottles of Beer "))
+pick = int(input("Enter 1 for Count by 10, 2 for Decimals, 3 for Bottles of Beer Song "))
 
 def counting():
     print("Counting by 10")
@@ -31,7 +31,9 @@ def bottles():
         
 if pick == 1:
     counting()
-if pick == 2:
+elif pick == 2:
     decimals()
-if pick == 3:
+elif pick == 3:
     bottles()
+else:
+    pick = int(input("Enter 1 for Count by 10, 2 for Decimals, 3 for Bottles of Beer Song "))
